@@ -1,6 +1,6 @@
 .aider*
 .env
-bin
-lib
-
+bin/
+lib/
+lib64/
 
