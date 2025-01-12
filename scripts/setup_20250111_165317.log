@@ -1,0 +1,717 @@
+[0;34m[INFO][0m Starting scientific Python build environment setup...
+[0;34m[INFO][0m Found Python version: 3.12
+[0;34m[INFO][0m Detecting Linux Mint/Ubuntu-based system
+[0;34m[INFO][0m Updating package lists...
+[0;34m[INFO][0m Installing system packages...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-dev is already the newest version (3.12.3-0ubuntu2).
+python3-pip is already the newest version (24.0+dfsg-1ubuntu1.1).
+python3-venv is already the newest version (3.12.3-0ubuntu2).
+python3-full is already the newest version (3.12.3-0ubuntu2).
+git is already the newest version (1:2.43.0-1ubuntu7.1).
+build-essential is already the newest version (12.10ubuntu1).
+ninja-build is already the newest version (1.11.1-2).
+pkg-config is already the newest version (1.8.1-2build1).
+libblas-dev is already the newest version (3.12.0-3build1.1).
+liblapack-dev is already the newest version (3.12.0-3build1.1).
+libopenblas-dev is already the newest version (0.3.26+ds-1).
+gfortran is already the newest version (4:13.2.0-7ubuntu1).
+libffi-dev is already the newest version (3.4.6-1build1).
+libffi-dev set to manually installed.
+zlib1g-dev is already the newest version (1:1.3.dfsg-3.1ubuntu2.1).
+zlib1g-dev set to manually installed.
+liblzma-dev is already the newest version (5.6.1+really5.4.5-1build0.1).
+liblzma-dev set to manually installed.
+libbz2-dev is already the newest version (1.0.8-5.1build0.1).
+libbz2-dev set to manually installed.
+libssl-dev is already the newest version (3.0.13-0ubuntu3.4).
+libssl-dev set to manually installed.
+xz-utils is already the newest version (5.6.1+really5.4.5-1build0.1).
+The following additional packages will be installed:
+  libatlas3-base libfontconfig-dev libfontconfig1-dev libxft-dev tcl-dev
+  tcl8.6-dev tk tk8.6 tk8.6-dev
+Suggested packages:
+  libatlas-doc liblapack-doc ncurses-doc readline-doc sqlite3-doc tcl-doc
+  tcl8.6-doc tk-doc tk8.6-doc
+The following NEW packages will be installed:
+  libatlas-base-dev libatlas3-base libfontconfig-dev libfontconfig1-dev
+  libncurses-dev libreadline-dev libsqlite3-dev libxft-dev tcl-dev tcl8.6-dev
+  tk tk-dev tk8.6 tk8.6-dev
+0 upgraded, 14 newly installed, 0 to remove and 0 not upgraded.
+Need to get 10.9 MB of archives.
+After this operation, 52.2 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libatlas3-base amd64 3.10.3-13ubuntu1 [3,544 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 libatlas-base-dev amd64 3.10.3-13ubuntu1 [3,827 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig-dev amd64 2.15.0-1.1ubuntu2 [161 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig1-dev amd64 2.15.0-1.1ubuntu2 [1,840 B]
+Get:5 http://archive.ubuntu.com/ubuntu noble/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2 [384 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline-dev amd64 8.2-4build1 [167 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 libsqlite3-dev amd64 3.45.1-1ubuntu2 [911 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 libxft-dev amd64 2.3.6-1build1 [64.3 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 tcl8.6-dev amd64 8.6.14+dfsg-1build1 [1,000 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/main amd64 tcl-dev amd64 8.6.14build1 [5,782 B]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 tk8.6 amd64 8.6.14-1build1 [12.5 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 tk amd64 8.6.14build1 [3,076 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble/main amd64 tk8.6-dev amd64 8.6.14-1build1 [788 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble/main amd64 tk-dev amd64 8.6.14build1 [2,914 B]
+Fetched 10.9 MB in 10s (1,044 kB/s)
+Selecting previously unselected package libatlas3-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 538012 files and directories currently installed.)
+Preparing to unpack .../00-libatlas3-base_3.10.3-13ubuntu1_amd64.deb ...
+Unpacking libatlas3-base:amd64 (3.10.3-13ubuntu1) ...
+Selecting previously unselected package libatlas-base-dev:amd64.
+Preparing to unpack .../01-libatlas-base-dev_3.10.3-13ubuntu1_amd64.deb ...
+Unpacking libatlas-base-dev:amd64 (3.10.3-13ubuntu1) ...
+Selecting previously unselected package libfontconfig-dev:amd64.
+Preparing to unpack .../02-libfontconfig-dev_2.15.0-1.1ubuntu2_amd64.deb ...
+Unpacking libfontconfig-dev:amd64 (2.15.0-1.1ubuntu2) ...
+Selecting previously unselected package libfontconfig1-dev:amd64.
+Preparing to unpack .../03-libfontconfig1-dev_2.15.0-1.1ubuntu2_amd64.deb ...
+Unpacking libfontconfig1-dev:amd64 (2.15.0-1.1ubuntu2) ...
+Selecting previously unselected package libncurses-dev:amd64.
+Preparing to unpack .../04-libncurses-dev_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+Selecting previously unselected package libreadline-dev:amd64.
+Preparing to unpack .../05-libreadline-dev_8.2-4build1_amd64.deb ...
+Unpacking libreadline-dev:amd64 (8.2-4build1) ...
+Selecting previously unselected package libsqlite3-dev:amd64.
+Preparing to unpack .../06-libsqlite3-dev_3.45.1-1ubuntu2_amd64.deb ...
+Unpacking libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
+Selecting previously unselected package libxft-dev:amd64.
+Preparing to unpack .../07-libxft-dev_2.3.6-1build1_amd64.deb ...
+Unpacking libxft-dev:amd64 (2.3.6-1build1) ...
+Selecting previously unselected package tcl8.6-dev:amd64.
+Preparing to unpack .../08-tcl8.6-dev_8.6.14+dfsg-1build1_amd64.deb ...
+Unpacking tcl8.6-dev:amd64 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package tcl-dev:amd64.
+Preparing to unpack .../09-tcl-dev_8.6.14build1_amd64.deb ...
+Unpacking tcl-dev:amd64 (8.6.14build1) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../10-tk8.6_8.6.14-1build1_amd64.deb ...
+Unpacking tk8.6 (8.6.14-1build1) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../11-tk_8.6.14build1_amd64.deb ...
+Unpacking tk (8.6.14build1) ...
+Selecting previously unselected package tk8.6-dev:amd64.
+Preparing to unpack .../12-tk8.6-dev_8.6.14-1build1_amd64.deb ...
+Unpacking tk8.6-dev:amd64 (8.6.14-1build1) ...
+Selecting previously unselected package tk-dev:amd64.
+Preparing to unpack .../13-tk-dev_8.6.14build1_amd64.deb ...
+Unpacking tk-dev:amd64 (8.6.14build1) ...
+Setting up tk8.6 (8.6.14-1build1) ...
+Setting up libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+Setting up libatlas3-base:amd64 (3.10.3-13ubuntu1) ...
+Setting up libfontconfig-dev:amd64 (2.15.0-1.1ubuntu2) ...
+Setting up tcl8.6-dev:amd64 (8.6.14+dfsg-1build1) ...
+Setting up libreadline-dev:amd64 (8.2-4build1) ...
+Setting up libatlas-base-dev:amd64 (3.10.3-13ubuntu1) ...
+Setting up libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
+Setting up tcl-dev:amd64 (8.6.14build1) ...
+Setting up tk (8.6.14build1) ...
+Setting up libxft-dev:amd64 (2.3.6-1build1) ...
+Setting up libfontconfig1-dev:amd64 (2.15.0-1.1ubuntu2) ...
+Setting up tk8.6-dev:amd64 (8.6.14-1build1) ...
+Setting up tk-dev:amd64 (8.6.14build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for install-info (7.1-3build2) ...
+[0;34m[INFO][0m Creating project structure: scientific-project
+[0;34m[INFO][0m Creating virtual environment...
+[0;34m[INFO][0m Upgrading pip and installing build tools...
+Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (24.3.1)
+Using pip 24.3.1 from /home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pip (python 3.12)
+Requirement already satisfied: pdm in ./.venv/lib/python3.12/site-packages (2.22.2)
+Requirement already satisfied: meson in ./.venv/lib/python3.12/site-packages (1.6.1)
+Requirement already satisfied: meson-python in ./.venv/lib/python3.12/site-packages (0.17.1)
+Requirement already satisfied: scikit-build in ./.venv/lib/python3.12/site-packages (0.18.1)
+Requirement already satisfied: scikit-build-core in ./.venv/lib/python3.12/site-packages (0.10.7)
+Requirement already satisfied: ninja in ./.venv/lib/python3.12/site-packages (1.11.1.3)
+Requirement already satisfied: wheel in ./.venv/lib/python3.12/site-packages (0.45.1)
+Requirement already satisfied: build in ./.venv/lib/python3.12/site-packages (1.2.2.post1)
+Requirement already satisfied: setuptools in ./.venv/lib/python3.12/site-packages (75.8.0)
+Requirement already satisfied: blinker in ./.venv/lib/python3.12/site-packages (from pdm) (1.9.0)
+Requirement already satisfied: packaging!=22.0,>=20.9 in ./.venv/lib/python3.12/site-packages (from pdm) (24.2)
+Requirement already satisfied: platformdirs in ./.venv/lib/python3.12/site-packages (from pdm) (4.3.6)
+Requirement already satisfied: rich>=12.3.0 in ./.venv/lib/python3.12/site-packages (from pdm) (13.9.4)
+Requirement already satisfied: virtualenv>=20 in ./.venv/lib/python3.12/site-packages (from pdm) (20.28.1)
+Requirement already satisfied: pyproject-hooks in ./.venv/lib/python3.12/site-packages (from pdm) (1.2.0)
+Requirement already satisfied: unearth>=0.17.0 in ./.venv/lib/python3.12/site-packages (from pdm) (0.17.2)
+Requirement already satisfied: dep-logic>=0.4.4 in ./.venv/lib/python3.12/site-packages (from pdm) (0.4.10)
+Requirement already satisfied: findpython<1.0.0a0,>=0.6.0 in ./.venv/lib/python3.12/site-packages (from pdm) (0.6.2)
+Requirement already satisfied: tomlkit<1,>=0.11.1 in ./.venv/lib/python3.12/site-packages (from pdm) (0.13.2)
+Requirement already satisfied: shellingham>=1.3.2 in ./.venv/lib/python3.12/site-packages (from pdm) (1.5.4)
+Requirement already satisfied: python-dotenv>=0.15 in ./.venv/lib/python3.12/site-packages (from pdm) (1.0.1)
+Requirement already satisfied: resolvelib>=1.1 in ./.venv/lib/python3.12/site-packages (from pdm) (1.1.0)
+Requirement already satisfied: installer<0.8,>=0.7 in ./.venv/lib/python3.12/site-packages (from pdm) (0.7.0)
+Requirement already satisfied: truststore>=0.9 in ./.venv/lib/python3.12/site-packages (from pdm) (0.10.0)
+Requirement already satisfied: hishel>=0.0.32 in ./.venv/lib/python3.12/site-packages (from pdm) (0.1.1)
+Requirement already satisfied: msgpack>=1.0 in ./.venv/lib/python3.12/site-packages (from pdm) (1.1.0)
+Requirement already satisfied: pbs-installer>=2024.4.18 in ./.venv/lib/python3.12/site-packages (from pdm) (2025.1.6)
+Requirement already satisfied: httpx<1,>0.20 in ./.venv/lib/python3.12/site-packages (from httpx[socks]<1,>0.20->pdm) (0.28.1)
+Requirement already satisfied: filelock>=3.13 in ./.venv/lib/python3.12/site-packages (from pdm) (3.16.1)
+Requirement already satisfied: httpcore>=1.0.6 in ./.venv/lib/python3.12/site-packages (from pdm) (1.0.7)
+Requirement already satisfied: certifi>=2024.8.30 in ./.venv/lib/python3.12/site-packages (from pdm) (2024.12.14)
+Requirement already satisfied: pyproject-metadata>=0.7.1 in ./.venv/lib/python3.12/site-packages (from meson-python) (0.9.0)
+Requirement already satisfied: distro in ./.venv/lib/python3.12/site-packages (from scikit-build) (1.9.0)
+Requirement already satisfied: pathspec>=0.10.1 in ./.venv/lib/python3.12/site-packages (from scikit-build-core) (0.12.1)
+Requirement already satisfied: h11<0.15,>=0.13 in ./.venv/lib/python3.12/site-packages (from httpcore>=1.0.6->pdm) (0.14.0)
+Requirement already satisfied: anyio in ./.venv/lib/python3.12/site-packages (from httpx<1,>0.20->httpx[socks]<1,>0.20->pdm) (4.8.0)
+Requirement already satisfied: idna in ./.venv/lib/python3.12/site-packages (from httpx<1,>0.20->httpx[socks]<1,>0.20->pdm) (3.10)
+Requirement already satisfied: socksio==1.* in ./.venv/lib/python3.12/site-packages (from httpx[socks]<1,>0.20->pdm) (1.0.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./.venv/lib/python3.12/site-packages (from rich>=12.3.0->pdm) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./.venv/lib/python3.12/site-packages (from rich>=12.3.0->pdm) (2.19.1)
+Requirement already satisfied: distlib<1,>=0.3.7 in ./.venv/lib/python3.12/site-packages (from virtualenv>=20->pdm) (0.3.9)
+Requirement already satisfied: mdurl~=0.1 in ./.venv/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->pdm) (0.1.2)
+Requirement already satisfied: sniffio>=1.1 in ./.venv/lib/python3.12/site-packages (from anyio->httpx<1,>0.20->httpx[socks]<1,>0.20->pdm) (1.3.1)
+Requirement already satisfied: typing_extensions>=4.5 in ./.venv/lib/python3.12/site-packages (from anyio->httpx<1,>0.20->httpx[socks]<1,>0.20->pdm) (4.12.2)
+[0;34m[INFO][0m Initializing PDM project...
+pyproject.toml already exists, update it now.
+INFO: Using the first matched interpreter.
+Project is initialized successfully
+[0;34m[INFO][0m Installing project dependencies...
+[0;34m[INFO][0m Installing numpy...
+Adding packages to default dependencies: numpy>=1.24.0
+pdm.termui: ======== Start resolving requirements ========
+pdm.termui:   pytest>=7.0
+pdm.termui:   pytest-cov>=3.0
+pdm.termui:   numpy>=1.24.0
+pdm.termui:   scipy>=1.9.0
+pdm.termui:   pandas>=2.0.0
+pdm.termui:   ruff>=0.1.0
+pdm.termui:   black>=22.0
+pdm.termui:   Adding requirement python>=3.8
+pdm.termui:   Adding requirement pytest>=7.0
+pdm.termui:   Adding requirement pytest-cov>=3.0
+pdm.termui:   Adding requirement numpy>=1.24.0
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.2.1 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.2.1, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.2.0 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.2.0, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.1.3 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.1.3, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.1.2 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.1.2, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.1.1 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.1.1, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.1.0 because it requires Python>=3.10 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.1.0, narrow down the `requires-python` range to include this version. For example, ">=3.10" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.0.2 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.0.2, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.0.1 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.0.1, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@2.0.0 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@2.0.0, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.26.4 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.26.4, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.26.3 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.26.3, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.26.2 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.26.2, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.26.1 because it requires Python<3.13,>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.26.1, narrow down the `requires-python` range to include this version. For example, "<3.13,>=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.26.0 because it requires Python<3.13,>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.26.0, narrow down the `requires-python` range to include this version. For example, "<3.13,>=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.25.2 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.25.2, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.25.1 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.25.1, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/resolver/providers.py:189: PackageWarning: Skipping numpy@1.25.0 because it requires Python>=3.9 but the lock targets to work with Python>=3.8. Instead, another version of numpy that supports Python>=3.8 will be used.
+If you want to install numpy@1.25.0, narrow down the `requires-python` range to include this version. For example, ">=3.9" should work.
+  found = self.repository.find_candidates(
+pdm.termui:   Adding requirement scipy>=1.9.0
+pdm.termui:   Adding requirement pandas>=2.0.0
+pdm.termui:   Adding requirement ruff>=0.1.0
+pdm.termui:   Adding requirement black>=22.0
+pdm.termui: ======== Starting round 0 ========
+pdm.termui: Adding new pin: python None
+pdm.termui: ======== Starting round 1 ========
+pdm.termui:   Adding requirement click>=8.0.0(from black 24.8.0)
+pdm.termui:   Adding requirement mypy-extensions>=0.4.3(from black 24.8.0)
+pdm.termui:   Adding requirement packaging>=22.0(from black 24.8.0)
+pdm.termui:   Adding requirement pathspec>=0.9.0(from black 24.8.0)
+pdm.termui:   Adding requirement platformdirs>=2(from black 24.8.0)
+pdm.termui:   Adding requirement tomli>=1.1.0; python_version < "3.11"(from black 24.8.0)
+pdm.termui:   Adding requirement typing-extensions>=4.0.1; python_version < "3.11"(from black 24.8.0)
+pdm.termui: Adding new pin: black 24.8.0
+pdm.termui: ======== Starting round 2 ========
+pdm.termui: Adding new pin: numpy 1.24.4
+pdm.termui: ======== Starting round 3 ========
+pdm.termui:   Adding requirement python-dateutil>=2.8.2(from pandas 2.0.3)
+pdm.termui:   Adding requirement pytz>=2020.1(from pandas 2.0.3)
+pdm.termui:   Adding requirement tzdata>=2022.1(from pandas 2.0.3)
+pdm.termui:   Adding requirement numpy>=1.20.3; python_version < "3.10"(from pandas 2.0.3)
+pdm.termui:   Adding requirement numpy>=1.21.0; python_version >= "3.10"(from pandas 2.0.3)
+pdm.termui:   Adding requirement numpy>=1.23.2; python_version >= "3.11"(from pandas 2.0.3)
+pdm.termui: Adding new pin: pandas 2.0.3
+pdm.termui: ======== Starting round 4 ========
+pdm.termui:   Adding requirement colorama; sys_platform == "win32"(from pytest 8.3.4)
+pdm.termui:   Adding requirement exceptiongroup>=1.0.0rc8; python_version < "3.11"(from pytest 8.3.4)
+pdm.termui:   Adding requirement iniconfig(from pytest 8.3.4)
+pdm.termui:   Adding requirement packaging(from pytest 8.3.4)
+pdm.termui:   Adding requirement pluggy<2,>=1.5(from pytest 8.3.4)
+pdm.termui:   Adding requirement tomli>=1; python_version < "3.11"(from pytest 8.3.4)
+pdm.termui: Adding new pin: pytest 8.3.4
+pdm.termui: ======== Starting round 5 ========
+pdm.termui:   Adding requirement pytest>=4.6(from pytest-cov 5.0.0)
+pdm.termui:   Adding requirement coverage[toml]>=5.2.1(from pytest-cov 5.0.0)
+pdm.termui: Adding new pin: pytest-cov 5.0.0
+pdm.termui: ======== Starting round 6 ========
+pdm.termui: Adding new pin: ruff 0.9.1
+pdm.termui: ======== Starting round 7 ========
+pdm.termui:   Adding requirement numpy<1.26.0,>=1.18.5(from scipy 1.9.3)
+pdm.termui: Adding new pin: scipy 1.9.3
+pdm.termui: ======== Starting round 8 ========
+pdm.termui: Adding new pin: pluggy 1.5.0
+pdm.termui: ======== Starting round 9 ========
+pdm.termui: Adding new pin: tomli 2.2.1
+pdm.termui: ======== Starting round 10 ========
+pdm.termui:   Adding requirement colorama; platform_system == "Windows"(from click 8.1.8)
+pdm.termui: Adding new pin: click 8.1.8
+pdm.termui: ======== Starting round 11 ========
+pdm.termui:   Adding requirement coverage==7.6.1(from coverage 7.6.1)
+pdm.termui:   Adding requirement tomli; python_full_version <= "3.11.0a6"(from coverage 7.6.1)
+pdm.termui: Adding new pin: coverage 7.6.1
+pdm.termui: ======== Starting round 12 ========
+pdm.termui: Adding new pin: coverage 7.6.1
+pdm.termui: ======== Starting round 13 ========
+pdm.termui: Adding new pin: exceptiongroup 1.2.2
+pdm.termui: ======== Starting round 14 ========
+pdm.termui: Adding new pin: mypy-extensions 1.0.0
+pdm.termui: ======== Starting round 15 ========
+pdm.termui: Adding new pin: packaging 24.2
+pdm.termui: ======== Starting round 16 ========
+pdm.termui: Adding new pin: pathspec 0.12.1
+pdm.termui: ======== Starting round 17 ========
+pdm.termui: Adding new pin: platformdirs 4.3.6
+pdm.termui: ======== Starting round 18 ========
+pdm.termui:   Adding requirement six>=1.5(from python-dateutil 2.9.0.post0)
+pdm.termui: Adding new pin: python-dateutil 2.9.0.post0
+pdm.termui: ======== Starting round 19 ========
+pdm.termui: Adding new pin: pytz 2024.2
+pdm.termui: ======== Starting round 20 ========
+pdm.termui: Adding new pin: six 1.17.0
+pdm.termui: ======== Starting round 21 ========
+pdm.termui: Adding new pin: typing-extensions 4.12.2
+pdm.termui: ======== Starting round 22 ========
+pdm.termui: Adding new pin: tzdata 2024.2
+pdm.termui: ======== Starting round 23 ========
+pdm.termui: Adding new pin: colorama 0.4.6
+pdm.termui: ======== Starting round 24 ========
+pdm.termui: Adding new pin: iniconfig 2.0.0
+pdm.termui: ======== Starting round 25 ========
+pdm.termui: ======== Resolution Result ========
+pdm.termui:              python None
+pdm.termui:               black 24.8.0
+pdm.termui:               numpy 1.24.4
+pdm.termui:              pandas 2.0.3
+pdm.termui:              pytest 8.3.4
+pdm.termui:          pytest-cov 5.0.0
+pdm.termui:                ruff 0.9.1
+pdm.termui:               scipy 1.9.3
+pdm.termui:              pluggy 1.5.0
+pdm.termui:               tomli 2.2.1
+pdm.termui:               click 8.1.8
+pdm.termui:      coverage[toml] 7.6.1
+pdm.termui:            coverage 7.6.1
+pdm.termui:      exceptiongroup 1.2.2
+pdm.termui:     mypy-extensions 1.0.0
+pdm.termui:           packaging 24.2
+pdm.termui:            pathspec 0.12.1
+pdm.termui:        platformdirs 4.3.6
+pdm.termui:     python-dateutil 2.9.0.post0
+pdm.termui:                pytz 2024.2
+pdm.termui:                 six 1.17.0
+pdm.termui:   typing-extensions 4.12.2
+pdm.termui:              tzdata 2024.2
+pdm.termui:            colorama 0.4.6
+pdm.termui:           iniconfig 2.0.0
+INFO: Use `-q/--quiet` to suppress these warnings, or ignore them per-package with `ignore_package_warnings` config in [tool.pdm] table.
+pdm.termui: Fetching hashes for numpy@1.24.4
+
+Changes are written to pyproject.toml.
+STATUS: Resolving packages from lockfile...
+unearth.preparer: The file . is a local directory, use it directly
+Synchronizing working set with resolved packages: 3 to add, 0 to update, 0 to remove
+
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/b1/a7/824332581e258b5aa4f3763ecb2a797e5f9a54269044ba2e50ac19936b32/pandas-2.0.3.tar.gz
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/b1/a7/824332581e258b5aa4f3763ecb2a797e5f9a54269044ba2e50ac19936b32/pandas-2.0.3.tar.gz (from https://pypi.org/simple/pandas/)> (5.3 MB)
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/0a/2e/44795c6398e24e45fa0bb61c3e98de1cfea567b1b51efd3751e2f7ff9720/scipy-1.9.3.tar.gz
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/0a/2e/44795c6398e24e45fa0bb61c3e98de1cfea567b1b51efd3751e2f7ff9720/scipy-1.9.3.tar.gz (from https://pypi.org/simple/scipy/)> (42.1 MB)
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/a4/9b/027bec52c633f6556dba6b722d9a0befb40498b9ceddd29cbe67a45a127c/numpy-1.24.4.tar.gz
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/a4/9b/027bec52c633f6556dba6b722d9a0befb40498b9ceddd29cbe67a45a127c/numpy-1.24.4.tar.gz (from https://pypi.org/simple/numpy/)> (10.9 MB)
+pdm.termui: Preparing environment(Isolated mode) for PEP 517 build...
+pdm.termui: Saving wheel to cache: <Link https://files.pythonhosted.org/packages/b1/a7/824332581e258b5aa4f3763ecb2a797e5f9a54269044ba2e50ac19936b32/pandas-2.0.3.tar.gz (from https://pypi.org/simple/pandas/)>
+pdm.termui: Running PEP 517 backend to build a wheel for <Link https://files.pythonhosted.org/packages/b1/a7/824332581e258b5aa4f3763ecb2a797e5f9a54269044ba2e50ac19936b32/pandas-2.0.3.tar.gz (from https://pypi.org/simple/pandas/)>
+pdm.termui: ======== Start resolving requirements ========
+pdm.termui:   Adding requirement python==3.12.3
+pdm.termui:   Adding requirement oldest-supported-numpy>=2022.8.16
+pdm.termui: Preparing environment(Isolated mode) for PEP 517 build...
+pdm.termui: Saving wheel to cache: <Link https://files.pythonhosted.org/packages/a4/9b/027bec52c633f6556dba6b722d9a0befb40498b9ceddd29cbe67a45a127c/numpy-1.24.4.tar.gz (from https://pypi.org/simple/numpy/)>
+pdm.termui: Running PEP 517 backend to build a wheel for <Link https://files.pythonhosted.org/packages/a4/9b/027bec52c633f6556dba6b722d9a0befb40498b9ceddd29cbe67a45a127c/numpy-1.24.4.tar.gz (from https://pypi.org/simple/numpy/)>
+pdm.termui: ======== Start resolving requirements ========
+pdm.termui:   Adding requirement python==3.12.3
+pdm.termui:   Adding requirement setuptools==59.2.0
+pdm.termui:   Adding requirement wheel
+pdm.termui:   Adding requirement Cython<3,>=0.29.33
+pdm.termui:   Adding requirement Cython<3.0,>=0.29.30
+pdm.termui:   Adding requirement versioneer[toml]
+pdm.termui:   Adding requirement wheel==0.37.0
+pdm.termui: ======== Resolution Result ========
+pdm.termui:       python None
+pdm.termui:   setuptools 59.2.0
+pdm.termui:        wheel 0.37.0
+pdm.termui:       cython 0.29.37
+pdm.termui: Fetching hashes for wheel@0.37.0
+pdm.termui:   Adding requirement setuptools>=61.0.0
+pdm.termui: Fetching hashes for setuptools@59.2.0
+pdm.termui:   Adding requirement numpy==1.26.2; python_version == "3.12"(from oldest-supported-numpy 2023.12.21)
+pdm.termui: Fetching hashes for Cython@0.29.37
+pdm.termui: Installing cython@0.29.37...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (from https://pypi.org/simple/cython/)> (2.0 MB)
+pdm.termui:   Adding requirement python>=3.9(from setuptools 75.8.0)
+pdm.termui:   Adding requirement versioneer==0.29(from versioneer 0.29)
+pdm.termui: ======== Resolution Result ========
+pdm.termui:                   python None
+pdm.termui:                   cython 0.29.37
+pdm.termui:   oldest-supported-numpy 2023.12.21
+pdm.termui:               setuptools 75.8.0
+pdm.termui:         versioneer[toml] 0.29
+pdm.termui:                    wheel 0.45.1
+pdm.termui:                    numpy 1.26.2
+pdm.termui:               versioneer 0.29
+pdm.termui: Fetching hashes for versioneer@0.29
+pdm.termui: Fetching hashes for oldest-supported-numpy@2023.12.21
+pdm.termui: Fetching hashes for wheel@0.45.1
+pdm.termui: Fetching hashes for versioneer@0.29
+pdm.termui: Fetching hashes for setuptools@75.8.0
+pdm.termui: Fetching hashes for numpy@1.26.2
+pdm.termui: Fetching hashes for Cython@0.29.37
+pdm.termui: Installing cython@0.29.37...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (from https://pypi.org/simple/cython/)> (2.0 MB)
+pdm.termui: Installing setuptools@59.2.0...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/18/ad/ec41343a49a0371ea40daf37b1ba2c11333cdd121cb378161635d14b9750/setuptools-59.2.0-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/18/ad/ec41343a49a0371ea40daf37b1ba2c11333cdd121cb378161635d14b9750/setuptools-59.2.0-py3-none-any.whl (from https://pypi.org/simple/setuptools/)> (952 kB)
+pdm.termui: Installing numpy@1.26.2...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/04/89/3b831e2b50c9364069609d1335f46c488a149d5f2be14a08741c92a60009/numpy-1.26.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/04/89/3b831e2b50c9364069609d1335f46c488a149d5f2be14a08741c92a60009/numpy-1.26.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from https://pypi.org/simple/numpy/)> (17.9 MB)
+pdm.termui: Installing wheel@0.37.0...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/04/80/cad93b40262f5d09f6de82adbee452fd43cdff60830b56a74c5930f7e277/wheel-0.37.0-py2.py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/04/80/cad93b40262f5d09f6de82adbee452fd43cdff60830b56a74c5930f7e277/wheel-0.37.0-py2.py3-none-any.whl (from https://pypi.org/simple/wheel/)> (35 kB)
+pdm.termui: Synchronization complete.
+pdm.termui: Traceback (most recent call last):
+pdm.termui:   File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+pdm.termui:     main()
+pdm.termui:   File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+pdm.termui:     json_out["return_val"] = hook(**hook_input["kwargs"])
+pdm.termui:                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pdm.termui:   File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_in_process/_in_process.py", line 137, in get_requires_for_build_wheel
+pdm.termui:     backend = _build_backend()
+pdm.termui:               ^^^^^^^^^^^^^^^^
+pdm.termui:   File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_in_process/_in_process.py", line 70, in _build_backend
+pdm.termui:     obj = import_module(mod_path)
+pdm.termui:           ^^^^^^^^^^^^^^^^^^^^^^^
+pdm.termui:   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+pdm.termui:     return _bootstrap._gcd_import(name[level:], package, level)
+pdm.termui:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+pdm.termui:   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+pdm.termui:   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+pdm.termui:   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+pdm.termui:   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+pdm.termui:   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+pdm.termui:   File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/setuptools/__init__.py", line 16, in <module>
+pdm.termui:     import setuptools.version
+pdm.termui:   File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/setuptools/version.py", line 1, in <module>
+pdm.termui:     import pkg_resources
+pdm.termui:   File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/pkg_resources/__init__.py", line 2172, in <module>
+pdm.termui:     register_finder(pkgutil.ImpImporter, find_on_path)
+pdm.termui:                     ^^^^^^^^^^^^^^^^^^^
+pdm.termui: AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+  ✖ Install numpy 1.24.4 failed
+pdm.termui: Error occurs adding numpy: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/installers/synchronizers.py", line 29, in install_candidate
+    self.manager.install(can)
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/installers/manager.py", line 33, in install
+    prepared.build(),
+    ^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/models/candidates.py", line 412, in build
+    self._cached = Path(builder.build(build_dir, metadata_directory=self._metadata_dir))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 84, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/wheel.py", line 24, in build
+    requires = self._hook.get_requires_for_build_wheel(self.config_settings)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_impl.py", line 196, in get_requires_for_build_wheel
+    return self._call_hook(
+           ^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_impl.py", line 392, in _call_hook
+    self._subprocess_runner(
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 281, in subprocess_runner
+    return log_subprocessor(cmd, cwd, extra_environ=env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 128, in log_subprocessor
+    raise build_error(e) from None
+pdm.exceptions.BuildError: Build backend raised error: Showing the last 10 lines of the build output:
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/tmp/pdm-build-env-k5vhst6m-shared/lib/python3.12/site-packages/pkg_resources/__init__.py", line 2172, in <module>
+    register_finder(pkgutil.ImpImporter, find_on_path)
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+pdm.termui: Installing oldest-supported-numpy@2023.12.21...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/dc/5c/e3c84cfdd488701aa074b22cf5bd227fb15d26e1d55a66d9088c39afa123/oldest_supported_numpy-2023.12.21-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/dc/5c/e3c84cfdd488701aa074b22cf5bd227fb15d26e1d55a66d9088c39afa123/oldest_supported_numpy-2023.12.21-py3-none-any.whl (from https://pypi.org/simple/oldest-supported-numpy/)> (4.9 kB)
+pdm.termui: Installing setuptools@75.8.0...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl (from https://pypi.org/simple/setuptools/)> (1.2 MB)
+pdm.termui: Installing versioneer@0.29...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/b0/79/f0f1ca286b78f6f33c521a36b5cbd5bd697c0d66217d8856f443aeb9dd77/versioneer-0.29-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/b0/79/f0f1ca286b78f6f33c521a36b5cbd5bd697c0d66217d8856f443aeb9dd77/versioneer-0.29-py3-none-any.whl (from https://pypi.org/simple/versioneer/)> (46 kB)
+pdm.termui: Installing wheel@0.45.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/0b/2c/87f3254fd8ffd29e4c02732eee68a83a1d3c346ae39bc6822dcbcb697f2b/wheel-0.45.1-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/0b/2c/87f3254fd8ffd29e4c02732eee68a83a1d3c346ae39bc6822dcbcb697f2b/wheel-0.45.1-py3-none-any.whl (from https://pypi.org/simple/wheel/)> (72 kB)
+pdm.termui: Synchronization complete.
+pdm.termui: <string>:19: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+pdm.termui: Compiling pandas/_libs/algos.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/arrays.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/groupby.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/hashing.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/hashtable.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/index.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/indexing.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/internals.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/interval.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/join.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/lib.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/missing.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/parsers.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/reduction.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/ops.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/ops_dispatch.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/properties.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/reshape.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/sparse.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslib.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/base.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/ccalendar.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/dtypes.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/conversion.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/fields.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/nattype.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/np_datetime.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/offsets.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/parsing.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/period.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/strptime.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/timedeltas.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/timestamps.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/timezones.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/tzconversion.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/tslibs/vectorized.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/testing.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/window/aggregations.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/window/indexers.pyx because it changed.
+pdm.termui: Compiling pandas/_libs/writers.pyx because it changed.
+pdm.termui: Compiling pandas/io/sas/sas.pyx because it changed.
+pdm.termui: Compiling pandas/io/sas/byteswap.pyx because it changed.
+pdm.termui: Preparing environment(Isolated mode) for PEP 517 build...
+pdm.termui: Saving wheel to cache: <Link https://files.pythonhosted.org/packages/0a/2e/44795c6398e24e45fa0bb61c3e98de1cfea567b1b51efd3751e2f7ff9720/scipy-1.9.3.tar.gz (from https://pypi.org/simple/scipy/)>
+pdm.termui: Running PEP 517 backend to build a wheel for <Link https://files.pythonhosted.org/packages/0a/2e/44795c6398e24e45fa0bb61c3e98de1cfea567b1b51efd3751e2f7ff9720/scipy-1.9.3.tar.gz (from https://pypi.org/simple/scipy/)>
+pdm.termui: ======== Start resolving requirements ========
+pdm.termui:   Adding requirement python==3.12.3
+pdm.termui:   Adding requirement meson-python>=0.9.0
+pdm.termui:   Adding requirement numpy; python_version >= "3.12"
+pdm.termui:   Adding requirement wheel<0.38.0
+pdm.termui:   Adding requirement pythran<0.13.0,>=0.9.12
+pdm.termui:   Adding requirement Cython<3.0,>=0.29.32
+pdm.termui:   Adding requirement pybind11<2.11.0,>=2.4.3
+pdm.termui:   Adding requirement ply>=3.4(from pythran 0.12.2)
+pdm.termui:   Adding requirement gast<=0.5.3(from pythran 0.12.2)
+pdm.termui:   Adding requirement numpy(from pythran 0.12.2)
+pdm.termui:   Adding requirement beniget~=0.4.0(from pythran 0.12.2)
+pdm.termui:   Adding requirement meson>=1.2.3; python_version >= "3.12"(from meson-python 0.17.1)
+pdm.termui:   Adding requirement packaging>=19.0(from meson-python 0.17.1)
+pdm.termui:   Adding requirement pyproject-metadata>=0.7.1(from meson-python 0.17.1)
+pdm.termui:   Adding requirement gast>=0.5.0(from beniget 0.4.2.post1)
+pdm.termui:   Adding requirement packaging>=19.0(from pyproject-metadata 0.9.0)
+pdm.termui: ======== Resolution Result ========
+pdm.termui:               python None
+pdm.termui:               cython 0.29.37
+pdm.termui:             pybind11 2.10.4
+pdm.termui:              pythran 0.12.2
+pdm.termui:         meson-python 0.17.1
+pdm.termui:                wheel 0.37.1
+pdm.termui:                numpy 2.2.1
+pdm.termui:              beniget 0.4.2.post1
+pdm.termui:                 gast 0.5.3
+pdm.termui:                meson 1.6.1
+pdm.termui:            packaging 24.2
+pdm.termui:                  ply 3.11
+pdm.termui:   pyproject-metadata 0.9.0
+pdm.termui: Fetching hashes for meson-python@0.17.1
+pdm.termui: Fetching hashes for pybind11@2.10.4
+pdm.termui: Fetching hashes for beniget@0.4.2.post1
+pdm.termui: Fetching hashes for pythran@0.12.2
+pdm.termui: Fetching hashes for ply@3.11
+pdm.termui: Fetching hashes for gast@0.5.3
+pdm.termui: Fetching hashes for pyproject-metadata@0.9.0
+pdm.termui: Fetching hashes for meson@1.6.1
+pdm.termui: Fetching hashes for wheel@0.37.1
+pdm.termui: Fetching hashes for packaging@24.2
+pdm.termui: Fetching hashes for numpy@2.2.1
+pdm.termui: Fetching hashes for Cython@0.29.37
+pdm.termui: Installing beniget@0.4.2.post1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/44/e4/6e8731d4d10dd09942a6f5015b2148ae612bf13e49629f33f9fade3c8253/beniget-0.4.2.post1-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/44/e4/6e8731d4d10dd09942a6f5015b2148ae612bf13e49629f33f9fade3c8253/beniget-0.4.2.post1-py3-none-any.whl (from https://pypi.org/simple/beniget/)> (17 kB)
+pdm.termui: Installing cython@0.29.37...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/c9/aa/99a0eac01136c0c75feb3210d107c49f93d49d5cb97f19e99318b9ecefdd/Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (from https://pypi.org/simple/cython/)> (2.0 MB)
+pdm.termui: Installing gast@0.5.3...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/5f/1c/b59500a88c5c3d9d601c5ca62b9df5e0964764472faed82a182958a922c5/gast-0.5.3-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/5f/1c/b59500a88c5c3d9d601c5ca62b9df5e0964764472faed82a182958a922c5/gast-0.5.3-py3-none-any.whl (from https://pypi.org/simple/gast/)> (19 kB)
+pdm.termui: Installing meson@1.6.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/d2/f3/9d53c24a7113e08879b14117f83e7105251e6ecf7e03bb7c04926888db9c/meson-1.6.1-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/d2/f3/9d53c24a7113e08879b14117f83e7105251e6ecf7e03bb7c04926888db9c/meson-1.6.1-py3-none-any.whl (from https://pypi.org/simple/meson/)> (974 kB)
+pdm.termui: Installing meson-python@0.17.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/7d/ec/40c0ddd29ef4daa6689a2b9c5ced47d5b58fa54ae149b19e9a97f4979c8c/meson_python-0.17.1-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/7d/ec/40c0ddd29ef4daa6689a2b9c5ced47d5b58fa54ae149b19e9a97f4979c8c/meson_python-0.17.1-py3-none-any.whl (from https://pypi.org/simple/meson-python/)> (27 kB)
+pdm.termui: Installing numpy@2.2.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/7f/a7/c1f1d978166eb6b98ad009503e4d93a8c1962d0eb14a885c352ee0276a54/numpy-2.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/7f/a7/c1f1d978166eb6b98ad009503e4d93a8c1962d0eb14a885c352ee0276a54/numpy-2.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from https://pypi.org/simple/numpy/)> (16.1 MB)
+pdm.termui: Installing packaging@24.2...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl (from https://pypi.org/simple/packaging/)> (65 kB)
+pdm.termui: Installing ply@3.11...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl (from https://pypi.org/simple/ply/)> (49 kB)
+pdm.termui: Installing pybind11@2.10.4...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/52/ed/68e989fdac8f352cb6d506fac111ba1e1b74c0ef3660fadeeeeb765bc03c/pybind11-2.10.4-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/52/ed/68e989fdac8f352cb6d506fac111ba1e1b74c0ef3660fadeeeeb765bc03c/pybind11-2.10.4-py3-none-any.whl (from https://pypi.org/simple/pybind11/)> (222 kB)
+pdm.termui: Installing pyproject-metadata@0.9.0...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/e8/61/9dd3e68d2b6aa40a5fc678662919be3c3a7bf22cba5a6b4437619b77e156/pyproject_metadata-0.9.0-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/e8/61/9dd3e68d2b6aa40a5fc678662919be3c3a7bf22cba5a6b4437619b77e156/pyproject_metadata-0.9.0-py3-none-any.whl (from https://pypi.org/simple/pyproject-metadata/)> (18 kB)
+pdm.termui: Installing pythran@0.12.2...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/21/5b/0ac28c9cdddbd262a5a14e3d6bcff662b967ea678a3638cb79e153b93843/pythran-0.12.2-py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/21/5b/0ac28c9cdddbd262a5a14e3d6bcff662b967ea678a3638cb79e153b93843/pythran-0.12.2-py3-none-any.whl (from https://pypi.org/simple/pythran/)> (4.2 MB)
+pdm.termui: Installing wheel@0.37.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/27/d6/003e593296a85fd6ed616ed962795b2f87709c3eee2bca4f6d0fe55c6d00/wheel-0.37.1-py2.py3-none-any.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/27/d6/003e593296a85fd6ed616ed962795b2f87709c3eee2bca4f6d0fe55c6d00/wheel-0.37.1-py2.py3-none-any.whl (from https://pypi.org/simple/wheel/)> (35 kB)
+pdm.termui: Synchronization complete.
+pdm.termui: ======== Start resolving requirements ========
+pdm.termui:   Adding requirement python==3.12.3
+pdm.termui:   Adding requirement patchelf>=0.11.0
+pdm.termui: ======== Resolution Result ========
+pdm.termui:     python None
+pdm.termui:   patchelf 0.17.2.1
+pdm.termui: Fetching hashes for patchelf@0.17.2.1
+pdm.termui: Installing patchelf@0.17.2.1...
+pdm.termui: Using cached response for https://files.pythonhosted.org/packages/c6/73/c3105c973dd2afcdc5d946ee211d5c4ecdf9d27bb54ae835b144e706e86d/patchelf-0.17.2.1-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.musllinux_1_1_x86_64.whl
+unearth.preparer: Downloading <Link https://files.pythonhosted.org/packages/c6/73/c3105c973dd2afcdc5d946ee211d5c4ecdf9d27bb54ae835b144e706e86d/patchelf-0.17.2.1-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.musllinux_1_1_x86_64.whl (from https://pypi.org/simple/patchelf/)> (425 kB)
+pdm.termui: Synchronization complete.
+pdm.termui: + meson setup /tmp/pdm-build-qynuxx9j /tmp/pdm-build-qynuxx9j/.mesonpy-izsmcn26 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=/tmp/pdm-build-qynuxx9j/.mesonpy-izsmcn26/meson-python-native-file.ini
+pdm.termui: The Meson build system
+pdm.termui: Version: 1.6.1
+pdm.termui: Source dir: /tmp/pdm-build-qynuxx9j
+pdm.termui: Build dir: /tmp/pdm-build-qynuxx9j/.mesonpy-izsmcn26
+pdm.termui: Build type: native build
+pdm.termui: Project name: SciPy
+pdm.termui: Project version: 1.9.3
+pdm.termui: C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+pdm.termui: C linker for the host machine: cc ld.bfd 2.42
+pdm.termui: C++ compiler for the host machine: c++ (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+pdm.termui: C++ linker for the host machine: c++ ld.bfd 2.42
+pdm.termui: Host machine cpu family: x86_64
+pdm.termui: Host machine cpu: x86_64
+pdm.termui: Compiler for C supports arguments -Wno-unused-but-set-variable: YES 
+pdm.termui: Compiler for C supports arguments -Wno-unused-but-set-variable: YES (cached)
+pdm.termui: Compiler for C supports arguments -Wno-unused-function: YES 
+pdm.termui: Compiler for C supports arguments -Wno-conversion: YES 
+pdm.termui: Compiler for C supports arguments -Wno-misleading-indentation: YES 
+pdm.termui: Compiler for C supports arguments -Wno-incompatible-pointer-types: YES 
+pdm.termui: Library m found: YES
+pdm.termui: Fortran compiler for the host machine: gfortran (gcc 13.3.0 "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+pdm.termui: Fortran linker for the host machine: gfortran ld.bfd 2.42
+pdm.termui: Compiler for Fortran supports arguments -Wno-conversion: YES 
+pdm.termui: Program cython found: YES (/tmp/pdm-build-env-_h6tl475-shared/bin/cython)
+pdm.termui: Program pythran found: YES (/tmp/pdm-build-env-_h6tl475-shared/bin/pythran)
+pdm.termui: Program cp found: YES (/usr/bin/cp)
+pdm.termui: Program python found: YES (/home/kelly/Py/PyTest/scripts/scientific-project/.venv/bin/python)
+pdm.termui: 
+pdm.termui: ../meson.build:85:2: ERROR: Problem encountered: Your Python version is too new. SciPy 1.9 supports Python 3.8-3.11; if you are trying to build from source for the most recent SciPy version you may hit this error as well. Please build from the `main` branch on GitHub instead.
+pdm.termui: 
+pdm.termui: A full log can be found at /tmp/pdm-build-qynuxx9j/.mesonpy-izsmcn26/meson-logs/meson-log.txt
+  ✖ Install scipy 1.9.3 failed
+pdm.termui: Error occurs adding scipy: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/installers/synchronizers.py", line 29, in install_candidate
+    self.manager.install(can)
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/installers/manager.py", line 33, in install
+    prepared.build(),
+    ^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/models/candidates.py", line 412, in build
+    self._cached = Path(builder.build(build_dir, metadata_directory=self._metadata_dir))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 84, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/wheel.py", line 26, in build
+    filename = self._hook.build_wheel(out_dir, self.config_settings, metadata_directory)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_impl.py", line 256, in build_wheel
+    return self._call_hook(
+           ^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pyproject_hooks/_impl.py", line 392, in _call_hook
+    self._subprocess_runner(
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 281, in subprocess_runner
+    return log_subprocessor(cmd, cwd, extra_environ=env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kelly/Py/PyTest/scripts/scientific-project/.venv/lib/python3.12/site-packages/pdm/builders/base.py", line 128, in log_subprocessor
+    raise build_error(e) from None
+pdm.exceptions.BuildError: Build backend raised error: Showing the last 10 lines of the build output:
+Fortran linker for the host machine: gfortran ld.bfd 2.42
+Compiler for Fortran supports arguments -Wno-conversion: YES 
+Program cython found: YES (/tmp/pdm-build-env-_h6tl475-shared/bin/cython)
+Program pythran found: YES (/tmp/pdm-build-env-_h6tl475-shared/bin/pythran)
+Program cp found: YES (/usr/bin/cp)
+Program python found: YES (/home/kelly/Py/PyTest/scripts/scientific-project/.venv/bin/python)
+
+../meson.build:85:2: ERROR: Problem encountered: Your Python version is too new. SciPy 1.9 supports Python 3.8-3.11; if you are trying to build from source for the most recent SciPy version you may hit this error as well. Please build from the `main` branch on GitHub instead.
+
+A full log can be found at /tmp/pdm-build-qynuxx9j/.mesonpy-izsmcn26/meson-logs/meson-log.txt

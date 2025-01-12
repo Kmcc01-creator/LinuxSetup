@@ -1,0 +1,20 @@
+build-scripts/
+├── lib/
+│   ├── colors.sh       # Color and logging functions
+│   ├── system.sh       # System detection and requirements
+│   ├── python.sh       # Python-specific functions
+│   └── packages.sh     # Package management functions
+├── modules/
+│   ├── base.sh         # Base system setup
+│   ├── python.sh       # Python environment setup
+│   └── scientific.sh   # Scientific packages setup
+├── templates/
+│   ├── pyproject.toml  # Project template
+│   └── gitignore       # Git ignore template
+├── config/
+│   └── defaults.sh     # Default configuration
+└── build.sh           # Main build script
+
+####this is a general configuration file for our build system for python/cython/c project for graphics
+####imgui implemented eventually
+#### colors and palette systems based on HSL (hue/saturation/light) 

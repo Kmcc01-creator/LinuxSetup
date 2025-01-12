@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<article>
+  <articleinfo>
+    <title>Graphics Build System</title>
+    <subtitle>A Modular Build System for Graphics Projects</subtitle>
+  </articleinfo>
+
+  <section id="overview">
+    <title>Project Overview</title>
+    <para>
+      This build system is designed to support complex graphics applications with a focus on:
+    </para>
+    <itemizedlist>
+      <listitem><para>Cross-language integration (Python/Cython/C)</para></listitem>
+      <listitem><para>Color space management and palette generation</para></listitem>
+      <listitem><para>Robust error handling and logging</para></listitem>
+      <listitem><para>Modular system architecture</para></listitem>
+      <listitem><para>Future ImGui integration capabilities</para></listitem>
+    </itemizedlist>
+  </section>
+
+  <section id="architecture">
+    <title>System Architecture</title>
+    <programlisting>
+build-scripts/
+├── lib/                 # Core utilities
+│   ├── colors.sh       # Color and logging functions
+│   ├── system.sh       # System detection and requirements
+│   ├── python.sh       # Python-specific functions
+│   └── packages.sh     # Package management functions
+├── modules/            # Modular build components
+│   ├── base.sh         # Base system setup
+│   ├── python.sh       # Python environment setup
+│   └── scientific.sh   # Scientific packages setup
+├── templates/          # Project templates
+├── config/            # Configuration files
+└── build.sh           # Main build script
+    </programlisting>
+  </section>
+
+  <section id="features">
+    <title>Features</title>
+
+    <section id="color-management">
+      <title>Color Management System</title>
+      <itemizedlist>
+        <listitem><para>HSL-based color space transformations</para></listitem>
+        <listitem>
+          <para>Comprehensive palette generation:</para>
+          <itemizedlist>
+            <listitem><para>Monochromatic schemes</para></listitem>
+            <listitem><para>Complementary colors</para></listitem>
+            <listitem><para>Triadic color schemes</para></listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem><para>Pre-defined palettes (Ocean, Forest, Sunset, Berry, Mono Blue)</para></listitem>
+        <listitem><para>Terminal color support</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section id="build-capabilities">
+      <title>Build System Capabilities</title>
+      <itemizedlist>
+        <listitem><para>Automated dependency detection and installation</para></listitem>
+        <listitem><para>Virtual environment management</para></listitem>
+        <listitem><para>Comprehensive logging with color-coded output</para></listitem>
+        <listitem><para>Error tracking and reporting</para></listitem>
+        <listitem><para>Support for scientific computing packages</para></listitem>
+        <listitem><para>Cross-platform compatibility focus</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section id="dev-environment">
+      <title>Development Environment</title>
+      <itemizedlist>
+        <listitem><para>Python 3.8+ support</para></listitem>
+        <listitem><para>Scientific computing setup (NumPy, SciPy, Pandas)</para></listitem>
+        <listitem><para>Build tool integration (PDM, Meson, scikit-build)</para></listitem>
+        <listitem><para>Testing framework setup</para></listitem>
+        <listitem><para>Git integration with predefined .gitignore</para></listitem>
+      </itemizedlist>
+    </section>
+  </section>
+
+  <section id="getting-started">
+    <title>Getting Started</title>
+
+    <section id="prerequisites">
+      <title>Prerequisites</title>
+      <itemizedlist>
+        <listitem><para>Python 3.8 or higher</para></listitem>
+        <listitem><para>System build tools (documented in build_config.sh)</para></listitem>
+        <listitem><para>Git for version control</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section id="basic-setup">
+      <title>Basic Setup</title>
+      <programlisting>
+# Clone the repository
+git clone [repository-url]
+
+# Run the build script
+./build.sh
+
+# Activate the virtual environment
+source .venv/bin/activate
+      </programlisting>
+    </section>
+
+    <section id="color-usage">
+      <title>Color System Usage</title>
+      <programlisting>
+# Example: Generate a complementary color palette
+source lib/colors.sh
+source lib/palettes.sh
+generate_complementary_palette 180 0.5 0.5
+      </programlisting>
+    </section>
+  </section>
+
+  <section id="development">
+    <title>Development Workflow</title>
+
+    <section id="building">
+      <title>Building Projects</title>
+      <orderedlist>
+        <listitem><para>Configure project settings in <filename>config/defaults.sh</filename></para></listitem>
+        <listitem><para>Run the build script with desired modules</para></listitem>
+        <listitem><para>Use the color management system for UI/UX development</para></listitem>
+        <listitem><para>Implement tests following Red-Green Testing strategy</para></listitem>
+      </orderedlist>
+    </section>
+
+    <section id="testing">
+      <title>Testing</title>
+      <para>
+        The system supports a test-driven development approach:
+      </para>
+      <orderedlist>
+        <listitem><para>Write tests in the <filename>tests/</filename> directory</para></listitem>
+        <listitem><para>Run tests using PDM: <command>pdm run pytest</command></para></listitem>
+        <listitem><para>Implement features to pass tests</para></listitem>
+        <listitem><para>Refactor while maintaining test coverage</para></listitem>
+      </orderedlist>
+    </section>
+  </section>
+
+  <section id="future">
+    <title>Future Development</title>
+    <itemizedlist>
+      <listitem><para>ImGui integration for immediate mode GUI</para></listitem>
+      <listitem><para>Vulkan/OpenGL graphics pipeline integration</para></listitem>
+      <listitem><para>Extended color space support (RGB, CMYK, etc.)</para></listitem>
+      <listitem><para>Additional palette generation algorithms</para></listitem>
+      <listitem><para>CI/CD pipeline integration</para></listitem>
+      <listitem><para>Cross-platform testing enhancements</para></listitem>
+    </itemizedlist>
+  </section>
+
+  <section id="contributing">
+    <title>Contributing</title>
+    <orderedlist>
+      <listitem><para>Fork the repository</para></listitem>
+      <listitem><para>Create a feature branch</para></listitem>
+      <listitem><para>Implement changes with tests</para></listitem>
+      <listitem><para>Submit a pull request</para></listitem>
+    </orderedlist>
+  </section>
+
+  <section id="license">
+    <title>License</title>
+    <para>[License Type] - See LICENSE file for details</para>
+  </section>
+
+  <section id="acknowledgments">
+    <title>Acknowledgments</title>
+    <itemizedlist>
+      <listitem><para>Color space conversion algorithms based on standard HSL/RGB transformations</para></listitem>
+      <listitem><para>Build system architecture inspired by modern Python/C hybrid projects</para></listitem>
+    </itemizedlist>
+  </section>
+</article>

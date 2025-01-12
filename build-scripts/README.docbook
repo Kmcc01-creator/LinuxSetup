@@ -1,0 +1,19 @@
+# Source the logging system
+source lib/logging.sh
+
+# Basic usage
+log_debug "Debugging information"
+log_info "General information"
+log_warning "Warning message"
+log_error "Error occurred"
+log_critical "Critical system failure"
+
+# Change log level
+set_log_level "DEBUG"
+
+# Track specific error types
+track_error "DATABASE" "Connection timeout"
+track_error "NETWORK" "Port 8080 unavailable"
+
+# Get error summary
+get_error_summary

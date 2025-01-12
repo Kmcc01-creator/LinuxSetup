@@ -1,0 +1,22 @@
+=== Log Start ===
+Date: Sat Jan 11 05:38:40 PM EST 2025
+System: Linux Herbert 6.8.0-51-generic #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+=================
+
+[2025-01-11 17:38:40] INFO: Log level changed to: DEBUG
+[2025-01-11 17:38:40] INFO: Starting color system integration example
+[2025-01-11 17:38:41] INFO: Testing color transformations
+[2025-01-11 17:38:41] DEBUG: Converting RGB(255, 128, 0) to HSL
+[2025-01-11 17:38:41] DEBUG: Displayed HSL(30.117600, 1.000000, .500000) as RGB(255.000000, 127.999800, 0)
+[2025-01-11 17:38:41] INFO: Testing predefined palettes
+[2025-01-11 17:38:41] INFO: Generating monochromatic palette (H:180, S:0.6, L:0.5)
+[2025-01-11 17:38:41] INFO: Generated monochromatic palette
+[2025-01-11 17:38:41] INFO: Generating complementary palette (H:30, S:0.7, L:0.5)
+[2025-01-11 17:38:41] INFO: Generated complementary palette
+[2025-01-11 17:38:41] INFO: Generating triadic palette (H:120, S:0.6, L:0.4)
+[2025-01-11 17:38:41] INFO: Generated triadic palette
+[2025-01-11 17:38:41] INFO: Testing error handling
+[2025-01-11 17:38:41] ERROR: [COLOR_CONVERSION] Invalid RGB value: 300
+[2025-01-11 17:38:41] ERROR: [PALETTE_GENERATION] Invalid hue value: -30
+[2025-01-11 17:38:41] ERROR: [COLOR_DISPLAY] Terminal doesn't support true color
+[2025-01-11 17:38:41] INFO: Color system integration example completed
