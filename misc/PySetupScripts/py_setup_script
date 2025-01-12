@@ -1,0 +1,3 @@
+## script for installing features of python3 language
+
+sudo apt install python3-pytest

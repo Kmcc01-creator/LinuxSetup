@@ -3,4 +3,16 @@
 bin/
 lib/
 lib64/
-*.log
+
+##.log files in main branch???
+##use git rm -r <file/dir info> 
+##once posted, must be done this way 
+
+## general pattern for commits: 
+## git add . 
+## git commit -m "Message" 
+## git push -u origin branch-name
+
+##to make new branch: 
+## git checkout -b new-branch-name 
+## ... //   git push -u origin new-branch-name

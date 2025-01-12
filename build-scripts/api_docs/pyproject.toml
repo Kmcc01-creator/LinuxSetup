@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "api_docs"
+version = "0.1.0"
+dependencies = [
+    "pytest>=7.0",
+]
